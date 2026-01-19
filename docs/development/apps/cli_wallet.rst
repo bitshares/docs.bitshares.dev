@@ -61,11 +61,11 @@ The below section shows two example patterns how to launch the cli_wallet. The f
 
 **\<Example 1\> Connecting a Cli-Wallet by using a public API server node**
 
-We use the public API node of bts.mobi ``wss://api.bts.mobi/ws`` and connect via secured WebSocket connection:
+We use the public API node of bitshares.dev ``wss://api.bitshares.dev/ws`` and connect via secured WebSocket connection:
 
 ::
 
-    ./programs/cli_wallet/cli_wallet -s wss://api.bts.mobi/ws 
+    ./programs/cli_wallet/cli_wallet -s wss://api.bitshares.dev/ws 
                                      -H 127.0.0.1:8092
 
 This will open the cli-wallet and a RPC port.  In order to allow RPC calls for wallet operations (spend, buy, sell, …), you need to specify the RPC port. 
